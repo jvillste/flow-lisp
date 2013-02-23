@@ -1,0 +1,19 @@
+variables:
+def
+  global variable. rebinding affects all threads.
+defconst
+  global constant. rebinding is an error. can be inlined by the compiler.
+defdyn
+  dynamic scope. rebinding affects the current thread only. 
+
+continuations for exception handling and corutines etc.
+
+tail call optimization
+
+metadata a la clojure
+
+type hints as metadata
+
+lisp-1
+
+native threads
